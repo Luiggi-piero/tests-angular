@@ -39,7 +39,7 @@ describe('RouterMedicoComponent', () => {
     fixture.detectChanges();
   });
 
-  it('Debe de redirigir a médico cuando se guarde', () => {
+  it('Debe de redirigir a la ruta médico/333 cuando se guarde', () => {
     const router = TestBed.inject(Router);
     const spy = spyOn(router, 'navigate');
 
